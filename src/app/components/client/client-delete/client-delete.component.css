@@ -1,0 +1,14 @@
+.cancel {
+    margin-left: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.matcard {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: aqua;
+}

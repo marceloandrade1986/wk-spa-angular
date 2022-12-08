@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #ed233d;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo{
+    max-height: 32px;
+}
+
+.header .title-group {
+    padding-left: 25px;
+}
+
+#toolbar {
+    position: fixed;
+    z-index: 1000; 
+}
+

@@ -1,0 +1,14 @@
+.cancel {
+    margin-left: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.adrress {
+    margin-top: 1rem;
+    color: gray;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
