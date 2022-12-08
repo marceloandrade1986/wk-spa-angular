@@ -7,8 +7,6 @@ form {
     flex-direction: column;
 }
 
-.adrress {
-    margin-top: 1rem;
-    color: gray;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+.title {
+    margin-bottom: 1rem;
 }

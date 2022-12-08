@@ -1,5 +1,5 @@
 <mat-card>
-    <mat-card-title>
+    <mat-card-title class="title">
         Edit Client
     </mat-card-title>
     <form>
@@ -22,7 +22,7 @@
         </mat-form-field>
 
         <mat-form-field>
-            <input matInput placeholder="Adress CEP" [(ngModel)]="client.address_cep" name="address_cep">
+            <input matInput placeholder="CEP" [(ngModel)]="client.address_cep" name="address_cep">
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="Adress" [(ngModel)]="client.address" name="address">
@@ -32,14 +32,14 @@
                 name="address_number">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Adress District" [(ngModel)]="client.address_district" name="address_district">
+            <input matInput placeholder="District" [(ngModel)]="client.address_district" name="address_district">
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="Adress Complement" [(ngModel)]="client.address_complement"
                 name="address_complement">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Adress City" [(ngModel)]="client.address_city" name="address_city">
+            <input matInput placeholder="City" [(ngModel)]="client.address_city" name="address_city">
         </mat-form-field>
     </form>
     <button mat-raised-button (click)="updateClient()" color="accent">

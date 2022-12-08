@@ -1,5 +1,5 @@
 <mat-card>
-    <mat-card-title>New Client
+    <mat-card-title class="title">New Client
     </mat-card-title>
     <form>
 
@@ -22,25 +22,25 @@
         </mat-form-field>
 
         <mat-form-field>
-            <input matInput placeholder="Adress CEP" [(ngModel)]="client.address_cep" name="address_cep" required>
+            <input matInput placeholder="CEP" [(ngModel)]="client.address_cep" name="address_cep" required>
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Adress" [(ngModel)]="client.address" name="address" required>
+            <input matInput placeholder="Address" [(ngModel)]="client.address" name="address" required>
         </mat-form-field>
         <mat-form-field>
             <input type="number" matInput placeholder="Address Number" [(ngModel)]="client.address_number"
                 name="address_number" required>
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Adress District" [(ngModel)]="client.address_district" name="address_district"
+            <input matInput placeholder="District" [(ngModel)]="client.address_district" name="address_district"
                 required>
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Adress Complement" [(ngModel)]="client.address_complement"
+            <input matInput placeholder="Address Complement" [(ngModel)]="client.address_complement"
                 name="address_complement" required>
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Adress City" [(ngModel)]="client.address_city" name="address_city" required>
+            <input matInput placeholder="City" [(ngModel)]="client.address_city" name="address_city" required>
         </mat-form-field>
     </form>
 
